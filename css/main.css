@@ -1,0 +1,148 @@
+.blogsPage{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 100vh;
+    
+}
+
+.blogs{
+    flex: 0.75;
+    height: 100vh;
+
+ 
+}
+
+.list{
+    flex:0.16;
+    height: 40vh;
+    border-radius: 20px;
+    text-align: center;
+    background: #E9E9E9;
+    margin-top: 2%;
+}
+
+.list li{
+
+    list-style:square;
+    color: #1b7895;
+    transition: 1.5s;
+    margin-bottom: 3%;
+}
+
+.list p{
+    text-decoration: underline;
+
+}
+
+
+.list li:hover{
+
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+
+}
+
+.firstRow{
+    display: flex;
+    flex: 1;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex: 0.6;
+    height: 35vh;
+    border: 1px solid #1b7895;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.img img{
+    flex: 0.55;
+    height: 30vh;
+    margin-left: 2%;
+    border-radius: 20px;
+}
+
+.des{
+    flex: 0.8;
+    height: 30vh;
+    text-align: center;
+    margin-right:4%;
+}
+
+.even{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.odd{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.even .firstCard{
+    display: flex;
+    flex: 0.4;
+    height: 35vh;
+    border: 1px solid #1b7895;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 2%;
+}
+
+.odd .firstCard{
+    display: flex;
+    flex: 0.4;
+    height: 35vh;
+    border: 1px solid #1b7895;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+
+.even .secondCard{
+    display: flex;
+    flex: 0.4;
+    height: 35vh;
+    border: 1px solid #1b7895;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.odd .secondCard{
+    display: flex;
+    flex: 0.4;
+    height: 35vh;
+    border: 1px solid #1b7895;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 2%;
+}
+
