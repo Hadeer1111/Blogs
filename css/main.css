@@ -10,7 +10,6 @@
     flex: 0.75;
     height: 100vh;
 
- 
 }
 
 .list{
@@ -63,86 +62,171 @@
     flex-direction: row;
 }
 
-.img img{
-    flex: 0.55;
+.firstCard{
+    display: flex;
+    width: 28%;
+    height: 58vh;
+    border: 1px solid #1b7895;
+    border-radius: 20px;
+    margin-right: 2%;
+    flex-direction: column;
+    margin-left: 1.2%;
+    flex: 0.3;
+}
+
+
+.img{
+    flex: 0.6;
     height: 30vh;
     margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 20px;
+}
+
+.img2{
+    width:40%;
+    height: 30vh;
+    border-radius: 20px;
+    align-self: center;
+    margin-top: 3.5%;
+}
+
+.large{
+    width:90%;
+    height: 30vh;
+    border-radius: 20px;
+    align-self: center;
+    margin-top: 3.5%;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.img2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.large img{
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
 
 .des{
-    flex: 0.8;
+    flex: 0.4;
     height: 30vh;
     text-align: center;
     margin-right:4%;
+    overflow: hidden;
 }
 
-.even{
+.des2{
+    width: 80%;
+    height: 30vh;
+    text-align: center;
+    align-self: center;
+    overflow: hidden;
+}
+
+.dateText{
+    display: flex;
+    flex-direction: column;
+}
+
+.authDate{
+    align-self: start;
+}
+
+.authDate p span{
+    color: #5F5B5B;
+}
+
+
+.secPart{
     display: flex;
     flex-direction: row;
-    flex: 1;
-    height: 40vh;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: 2%;
 }
 
-.odd{
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    height: 40vh;
-    align-items: center;
-    justify-content: center;
-}
+@media screen and (max-width: 550px) {
+ 
+    .card{
+        display: flex;
+        width: 100%;
+        height: 58vh;
+        border: 1px solid #1b7895;
+        border-radius: 20px;
+        margin-right: 2%;
+        flex-direction: column;
+        margin-left: 1.2%;
+        flex: 1;
+        margin-bottom: 20%;
+        margin-top: 17%;
+    }
 
+    .blogs{
+        flex: 1;
+        height: 58vh;
+    }
 
-.even .firstCard{
-    display: flex;
-    flex: 0.4;
-    height: 35vh;
-    border: 1px solid #1b7895;
+    .firstRow{
+        height: 58vh;
+    }
+
+    .img{
+        width:90%;
+    height: 30vh;
     border-radius: 20px;
-    background: rgba(0, 0, 0, 0.2);
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-right: 2%;
-}
+    align-self: center;
+    margin-top: 3.5%;
+    }
 
-.odd .firstCard{
-    display: flex;
-    flex: 0.4;
-    height: 35vh;
-    border: 1px solid #1b7895;
+    
+.img img{
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
-    background: rgba(0, 0, 0, 0.2);
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
 }
 
-
-
-.even .secondCard{
-    display: flex;
-    flex: 0.4;
-    height: 35vh;
-    border: 1px solid #1b7895;
-    border-radius: 20px;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+.des{
+    width: 80%;
+    height: 30vh;
+    text-align: center;
+    align-self: center;
+    overflow: hidden;
 }
 
-.odd .secondCard{
-    display: flex;
-    flex: 0.4;
-    height: 35vh;
-    border: 1px solid #1b7895;
-    border-radius: 20px;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-right: 2%;
-}
+    .list{
+        display: none;
+    }
 
+    .secPart{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .firstCard{
+        display: flex;
+        width: 100%;
+        height: 58vh;
+        border: 1px solid #1b7895;
+        border-radius: 20px;
+        margin-right: 2%;
+        flex-direction: column;
+        margin-left: 1.2%;
+        margin-bottom: 6%;
+        flex: 1;
+    }
+
+  }
